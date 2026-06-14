@@ -1,0 +1,31 @@
+name: CI - Build & Push Docker Image
+
+# Trigger: only on Pull Requests targeting the develop branch
+on:
+  pull_request:
+    branches:
+      - develop
+
+jobs:
+  build-and-push:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1 - Checkout the repository code
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # Step 2 - Authenticate with Docker Hub using repository secrets
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      # Step 3, 4 & 5 - Build, tag (latest + short commit SHA) and push the image
+      - name: Build, tag and push image
+        run: |
+          IMAGE="${{ secrets.DOCKERHUB_USERNAME }}/taskflow-cicd"
+          SHORT_SHA="${GITHUB_SHA::7}"
+          docker build -t "$IMAGE:latest" -t "$IMAGE:$SHORT_SHA" .
+          docker push "$IMAGE:latest"
+          docker push "$IMAGE:$SHORT_SHA"
