@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TaskFlow – Task List</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="brand">Task<span>Flow</span></div>
+    <nav>
+      <a href="index.html">Dashboard</a>
+      <a href="add-task.html">Add Task</a>
+      <a href="task-list.html" class="active">Task List</a>
+      <a href="task-detail.html">Task Detail</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>All Tasks</h1>
+    <p class="lead">A complete list of your tasks. Use the filters to narrow things down.</p>
+
+    <div class="filters">
+      <button class="btn">All</button>
+      <button class="btn secondary">Pending</button>
+      <button class="btn secondary">Completed</button>
+    </div>
+
+    <div class="panel">
+      <table>
+        <thead>
+          <tr>
+            <th>Title</th>
+            <th>Due Date</th>
+            <th>Priority</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a href="task-detail.html">Set up GitHub repository</a></td>
+            <td>2026-06-10</td>
+            <td><span class="badge high">High</span></td>
+            <td><span class="badge completed">Completed</span></td>
+          </tr>
+          <tr>
+            <td><a href="task-detail.html">Write CI workflow</a></td>
+            <td>2026-06-12</td>
+            <td><span class="badge high">High</span></td>
+            <td><span class="badge completed">Completed</span></td>
+          </tr>
+          <tr>
+            <td><a href="task-detail.html">Write CD workflow</a></td>
+            <td>2026-06-13</td>
+            <td><span class="badge medium">Medium</span></td>
+            <td><span class="badge pending">Pending</span></td>
+          </tr>
+          <tr>
+            <td><a href="task-detail.html">Configure Render service</a></td>
+            <td>2026-06-14</td>
+            <td><span class="badge medium">Medium</span></td>
+            <td><span class="badge pending">Pending</span></td>
+          </tr>
+          <tr>
+            <td><a href="task-detail.html">Write reflections</a></td>
+            <td>2026-06-15</td>
+            <td><span class="badge low">Low</span></td>
+            <td><span class="badge pending">Pending</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer>TaskFlow &middot; DevOps Fundamentals Assignment 04 &middot; Spring 2026</footer>
+</body>
+</html>
