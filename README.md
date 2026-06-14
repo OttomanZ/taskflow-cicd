@@ -172,6 +172,7 @@ git push -u origin feature/<your-username>/<page-name>
 | 👑 Team Lead | Muneeb Ahmad | [@OttomanZ](https://github.com/OttomanZ) |
 | 👨‍💻 Member | Hassan Iftikhar | [@hassan-iftikhar-dev](https://github.com/hassan-iftikhar-dev) |
 | 👨‍💻 Member | Umer Aziz | [@umeraziz-dev](https://github.com/umeraziz-dev) |
+| 👨‍💻 Member | Rashid Shokat | [@rashidshokat77-collab](https://github.com/rashidshokat77-collab) |
 
 ---
 

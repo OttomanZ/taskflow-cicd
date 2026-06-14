@@ -22,3 +22,10 @@ I was responsible for the Add Task page and linked it to the shared stylesheet. 
 **Assigned page:** `task-list.html` (Task List)
 
 My task was the Task List page with the filterable task table. I learnt how a feature branch, a Pull Request, and a required status check fit together in a protected branching strategy. The trickiest part was understanding that the image is built during CI but the deployment only happens during CD after the merge. Reviewing and getting my PR approved before merge showed me why code review matters. Overall, the end-to-end CI/CD automation from a code push to a live Render deployment was the highlight for me.
+
+---
+
+## 👨‍💻 Member 4 — Rashid Shokat (`@rashidshokat77-collab`)
+**Assigned page:** `task-detail.html` (Task Detail)
+
+I took ownership of the Task Detail page and added an Activity History section showing the task lifecycle. The main thing I learnt was how to fork off the `develop` branch, push a feature branch, and open a Pull Request that automatically triggers the CI pipeline. Understanding how branch protection requires the CI check to pass before merging was new to me. The most challenging part was getting the branch-naming convention and PR target right, which the team helped me with quickly.
