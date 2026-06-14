@@ -188,3 +188,5 @@ Released under the **MIT License**. See below.
 Made with ☕ and 🐳 for **DevOps Fundamentals · Spring 2026**
 
 </div>
+
+<!-- Full application image: all 5 pages present on develop. -->
