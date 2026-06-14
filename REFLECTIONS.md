@@ -29,3 +29,10 @@ My task was the Task List page with the filterable task table. I learnt how a fe
 **Assigned page:** `task-detail.html` (Task Detail)
 
 I took ownership of the Task Detail page and added an Activity History section showing the task lifecycle. The main thing I learnt was how to fork off the `develop` branch, push a feature branch, and open a Pull Request that automatically triggers the CI pipeline. Understanding how branch protection requires the CI check to pass before merging was new to me. The most challenging part was getting the branch-naming convention and PR target right, which the team helped me with quickly.
+
+---
+
+## 👨‍💻 Member 5 — Umar Hassan (`@umer-hassan-de`)
+**Assigned page:** `about.html` (About / Help)
+
+I was responsible for the About / Help page, where I added a FAQ section to make the app easier to use. Through this assignment I learnt the complete GitHub flow — creating a feature branch, committing my page, and opening a Pull Request that fires the CI pipeline automatically. Seeing the Docker image build as part of CI helped me connect containerization with automation. The most challenging part was understanding how the merge to `develop` then triggers the CD workflow to deploy on Render, which the team walked me through.

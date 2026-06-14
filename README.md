@@ -173,6 +173,7 @@ git push -u origin feature/<your-username>/<page-name>
 | 👨‍💻 Member | Hassan Iftikhar | [@hassan-iftikhar-dev](https://github.com/hassan-iftikhar-dev) |
 | 👨‍💻 Member | Umer Aziz | [@umeraziz-dev](https://github.com/umeraziz-dev) |
 | 👨‍💻 Member | Rashid Shokat | [@rashidshokat77-collab](https://github.com/rashidshokat77-collab) |
+| 👨‍💻 Member | Umar Hassan | [@umer-hassan-de](https://github.com/umer-hassan-de) |
 
 ---
 
