@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TaskFlow – Add Task</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="brand">Task<span>Flow</span></div>
+    <nav>
+      <a href="index.html">Dashboard</a>
+      <a href="add-task.html" class="active">Add Task</a>
+      <a href="task-list.html">Task List</a>
+      <a href="task-detail.html">Task Detail</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Add a New Task</h1>
+    <p class="lead">Fill in the details below to create a new task.</p>
+
+    <div class="panel">
+      <form action="task-list.html" method="get">
+        <div>
+          <label for="title">Task Title</label>
+          <input type="text" id="title" name="title" placeholder="e.g. Finish CI/CD assignment" required />
+        </div>
+        <div>
+          <label for="description">Description</label>
+          <textarea id="description" name="description" rows="4" placeholder="Add more detail about the task..."></textarea>
+        </div>
+        <div>
+          <label for="due">Due Date</label>
+          <input type="date" id="due" name="due" required />
+        </div>
+        <div>
+          <label for="priority">Priority</label>
+          <select id="priority" name="priority">
+            <option value="high">High</option>
+            <option value="medium" selected>Medium</option>
+            <option value="low">Low</option>
+          </select>
+        </div>
+        <div class="actions">
+          <button type="submit" class="btn">Save Task</button>
+          <a href="index.html" class="btn secondary">Cancel</a>
+        </div>
+      </form>
+    </div>
+  </main>
+
+  <footer>TaskFlow &middot; DevOps Fundamentals Assignment 04 &middot; Spring 2026</footer>
+</body>
+</html>
