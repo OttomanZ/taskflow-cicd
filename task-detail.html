@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TaskFlow – Task Detail</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="brand">Task<span>Flow</span></div>
+    <nav>
+      <a href="index.html">Dashboard</a>
+      <a href="add-task.html">Add Task</a>
+      <a href="task-list.html">Task List</a>
+      <a href="task-detail.html" class="active">Task Detail</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Task Detail</h1>
+    <p class="lead">Full details for the selected task.</p>
+
+    <div class="panel">
+      <h2>Write CD workflow</h2>
+      <div class="detail-row"><span class="k">Status</span><span><span class="badge pending">Pending</span></span></div>
+      <div class="detail-row"><span class="k">Priority</span><span><span class="badge medium">Medium</span></span></div>
+      <div class="detail-row"><span class="k">Due Date</span><span>2026-06-13</span></div>
+      <div class="detail-row"><span class="k">Created</span><span>2026-06-09</span></div>
+      <div class="detail-row"><span class="k">Description</span><span>Create cd.yml that triggers on push to develop and sends a POST request to the Render deploy hook.</span></div>
+
+      <div class="actions">
+        <a href="task-list.html" class="btn success">Mark as Complete</a>
+        <a href="task-list.html" class="btn danger">Delete Task</a>
+        <a href="task-list.html" class="btn secondary">Back to List</a>
+      </div>
+    </div>
+  </main>
+
+  <footer>TaskFlow &middot; DevOps Fundamentals Assignment 04 &middot; Spring 2026</footer>
+</body>
+</html>
